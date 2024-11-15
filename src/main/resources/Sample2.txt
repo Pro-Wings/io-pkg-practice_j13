@@ -1,0 +1,19 @@
+This book is for Java developers and architects interested in develop‐
+ing microservices. We start the book with the high-level under‐
+standing and fundamental prerequisites that should be in place to be
+successful with a microservice architecture. Unfortunately, just
+using new technology doesn’t magically solve distributed systems
+problems. We take a look at some of the forces involved and what
+successful companies have done to make microservices work for
+them, including culture, organizational structure, and market pres‐
+sures. Then we take a deep dive into a few Java frameworks for
+implementing microservices. The accompanying source-code repos‐
+itory can be found on GitHub. Once we have our hands dirty, we’ll
+come back up for air and discuss issues around deployment, cluster‐
+ing, failover, and how Docker and Kubernetes deliver solutions in
+these areas. Then we’ll go back into the details with some hands-on
+examples with Docker, Kubernetes, and NetflixOSS to demonstrate
+the power they bring for cloud-native, microservice architectures.
+We finish with thoughts on topics we cannot cover in this small
+book but are no less important, like configuration, logging, and con‐
+tinuous delivery

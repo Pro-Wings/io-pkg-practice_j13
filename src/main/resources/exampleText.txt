@@ -1,0 +1,7 @@
+How long can be implicitly promoted to float in java even long have bigger size than float?
+
+In Java, a long can be implicitly promoted to a float without any issues, even though long has a bigger size than float. This is because both long and float are numeric data types, and Java allows for implicit widening conversions between compatible numeric types.
+
+The long data type is a 64-bit signed integer, while the float data type is a 32-bit floating-point number. When a long value is promoted to a float, it undergoes a conversion that preserves its numerical value within the range supported by float. However, it's important to note that floating-point numbers have limited precision, which means not all long values can be accurately represented as float.
+
+If a long value exceeds the maximum representable value of a float, it will be rounded or truncated to fit within the float range, leading to a potential loss of precision. If you need to ensure no loss of precision, you should use explicit type casting to convert the long to a double, which has a higher precision and a wider range than float.
